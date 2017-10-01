@@ -1,0 +1,52 @@
+body {
+    padding: 10px;
+}
+
+.board {
+    margin:30px auto;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    width: 550px;
+    height: 444px;
+    border: 2px solid #f6da17;
+}
+
+.tile {
+    position: absolute;
+    cursor: pointer;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(images/question_mark.png) center center no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.moves {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.start-container {
+    text-align: center;
+}
+.start {
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+    font-family: 'Special Elite', cursive;
+    margin-top: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    color: #fff;
+}
+.start-btn {
+    background: #e4b520;
+    border-bottom: 1px solid;
+    color: #e4b520;
+    line-height: 1.4;
+    padding: .25em;
+    text-decoration: none;
+    color: #fff;
+}
